@@ -1,0 +1,14 @@
+{ "categories": [{
+    "name": "Jobs"
+  }, {
+    "name": "Services"
+  }, {
+    "name": "Sale"
+  }, {
+    "name": "Community"
+  }, {
+    "name": "Housing"
+  }, {
+    "name": "Personals"
+  }]
+}

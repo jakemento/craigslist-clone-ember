@@ -1,1 +1,13 @@
-{{outlet}}
+<h1> Craig's List </h1>
+
+<!-- <ul>
+  {{#each model as |listing|}}
+    <li>{{listing.title}} by {{listing.author}} {{listing.date}} </li>
+  {{/each}}
+</ul> -->
+
+<ul>
+  {{#each model as |category|}}
+    {{category-tile category=category}}
+  {{/each}}
+</ul>
