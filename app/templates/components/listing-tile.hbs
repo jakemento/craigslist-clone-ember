@@ -1,1 +1,1 @@
-<li> {{listing.title}} by {{listing.author}} <br> {{listing.text}} <img src="{{listing.image}}"/>  </li>
+<li>{{#link-to 'listing' listing.id}} {{listing.title}} by {{listing.author}} {{/link-to}}  </li>
