@@ -14,3 +14,9 @@
   {{/each}}
 </ul> </center>
 <hr>
+
+<ul>
+  {{#each model.listings as |listing|}}
+    {{listing-tile listing=listing}}
+  {{/each}}
+</ul>

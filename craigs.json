@@ -23,5 +23,14 @@
     "type": "groups"
     }, {
     "type": "politics"
+    }],
+    "listings": [{
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+      "text":"this is a sample text",
+      "title":"Sample Title",
+      "address":"4205 25th Street",
+      "zip":"94114",
+      "date":"01-04-2016",
+      "author":"Jake S."
     }]
 }
