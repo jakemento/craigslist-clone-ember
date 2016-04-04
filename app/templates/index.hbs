@@ -1,13 +1,16 @@
-<h1> Craig's List </h1>
+<center> <h1> Craig's List </h1> </center>
 
-<!-- <ul>
-  {{#each model as |listing|}}
-    <li>{{listing.title}} by {{listing.author}} {{listing.date}} </li>
-  {{/each}}
-</ul> -->
 
-<ul>
-  {{#each model as |category|}}
-    {{category-tile category=category}}
+<center> <ul>
+  {{#each model.categories as |category|}}
+    <div class="col-md-6">
+      {{category-tile category=category}}
+    <ul>
+      {{#each model.subcategories as |subcategory|}}
+      <li> {{#link-to 'subcategory' subcategory.id}} {{subcategory.type}} {{/link-to}}
+      </li>  {{/each}} <br>
+    </ul> <hr>
+  </div>
   {{/each}}
-</ul>
+</ul> </center>
+<hr>

@@ -10,5 +10,18 @@
     "name": "Housing"
   }, {
     "name": "Personals"
-  }]
+  }],
+  "subcategories": [{
+    "type": "activities"
+    }, {
+    "type": "childcare"
+    }, {
+    "type": "classes"
+    }, {
+    "type": "events"
+    }, {
+    "type": "groups"
+    }, {
+    "type": "politics"
+    }]
 }
