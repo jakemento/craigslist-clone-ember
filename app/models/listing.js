@@ -7,5 +7,7 @@ export default DS.Model.extend({
   address: DS.attr(),
   zip: DS.attr(),
   date: DS.attr(),
-  author: DS.attr()
+  author: DS.attr(),
+  subcategory: DS.belongsTo('subcategory', {async: true})
+
 });

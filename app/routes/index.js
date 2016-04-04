@@ -9,4 +9,12 @@ export default Ember.Route.extend({
       listings: this.store.findAll('listing')
     });
   },
+
+  actions: {
+    save3(params) {
+      var newListing = this.store.createRecord('listing', params);
+      newListing.save();
+      this.transitionTo('index');
+    }
+  }
 });
